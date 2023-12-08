@@ -83,9 +83,9 @@ module.exports = function(eleventyConfig) {
 		mdLib.use(markdownItAnchor, {
 			permalink: markdownItAnchor.permalink.ariaHidden({
 				placement: "after",
-				class: "header-anchor",
+				class: "header-anchor hide-xs hide-sm hide-md hide-lg",
 				symbol: "#",
-				ariaHidden: false,
+				ariaHidden: true,
 			}),
 			level: [1,2,3,4],
 			slugify: eleventyConfig.getFilter("slugify")
