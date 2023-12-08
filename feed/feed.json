@@ -1,0 +1,14 @@
+{
+	"version": "https://jsonfeed.org/version/1.1",
+	"title": "Stop Tech Foreign Agents",
+	"language": "en",
+	"home_page_url": "https://stoptechforeignagents.github.io/",
+	"feed_url": "https://stoptechforeignagents.github.io/feed/feed.json",
+	"description": "Inside the Pro-Israel Information War",
+	"author": {
+		"name": "Stop Tech Foreign Agents",
+		"url": "https://stoptechforeignagents.github.io"
+	},
+	"items": [
+	]
+}
