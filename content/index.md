@@ -10,7 +10,7 @@ On December 7th, 2023, Jack Paulson and Lee Fang  released WhatsApp and Zoom lea
 
 <a href="https://jackpoulson.substack.com/p/inside-the-pro-israel-information" class="button">See Report</a>
 
-### 'We have obtained access to thousands of the group’s WhatsApp messages dating back to mid-October, and an intricate spreadsheet where group participants request and claim tasks ranging from social media responses to IDF support shipments. Separately, we have viewed a number of video meetings charting best practices for “hasbara” –-- an Israeli term of art for “public diplomacy” whose detractors see it as a euphemism for propaganda -- that offer a window into Israel’s public-relations war that is not limited to the tech sector.'
+### 'We have obtained access to thousands of the group’s WhatsApp messages dating back to mid-October, and an intricate spreadsheet where group participants request and claim tasks ranging from social media responses to IDF support shipments. Separately, we have viewed a number of video meetings charting best practices for “hasbara” –-- an Israeli term of art for “public diplomacy” whose detractors see it as a euphemism for propaganda -- that offer a window into Israel’s public-relations war that is not limited to the tech sector.'[^1]
 
 …
 
@@ -41,8 +41,8 @@ I am asking for a thorough investigation into whether the following persons name
 [^1]: https://open.substack.com/pub/jackpoulson/p/inside-the-pro-israel-information
 
 <a href="mailto:fara.public@usdoj.gov?subject=Reporting%20FARA%20Violations%20by%20J%20Ventures" class="button">Email Department of Justice</a>
-
-## Excerpts
+--
+## Excerpts[^1]
 
 <div class="row">
 <div class="col-6">
@@ -53,7 +53,7 @@ I am asking for a thorough investigation into whether the following persons name
 
 ### That’s where the efforts of J-Ventures’ hasbara WhatsApp group come in. The group, which also includes attorneys and individuals affiliated with the influential American Israel Public Affairs Committee (AIPAC), has tirelessly worked to fire employees and punish activists for expressing pro-Palestinian views. It has also engaged in a successful push to cancel events held by prominent Palestinian voices, including an Arizona State University talk featuring Rep. Rashida Tlaib … In some cases, officials from the IDF and other parts of the Israeli government have joined the effort. David, the Israeli foreign ministry official and an investor in J-Ventures, has shared official talking points in the WhatsApp group.
 
-![Slides from a Nov. 22 presentation given by Adam Fisher, the Israel country manager of Bessemer Venture Partners](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F41490f17-a147-4093-b2c2-5303ec869063_1600x874.jpeg))
+![Slides from a Nov. 22 presentation given by Adam Fisher, the Israel country manager of Bessemer Venture Partners](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F41490f17-a147-4093-b2c2-5303ec869063_1600x874.jpeg)
 
 </div>
 <div class="col-6">
