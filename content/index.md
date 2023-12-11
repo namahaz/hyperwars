@@ -1,76 +1,46 @@
 ---
 layout: layouts/md.njk
 eleventyNavigation:
-  key: ⚖️
+  key: 🌍
   order: 1
 ---
-# "Inside the Pro-Israel Information War"[^1]
+# Stop Catastrophic AI
 
-On December 7th, 2023, Jack Paulson and Lee Fang  released WhatsApp and Zoom leaks showing individuals tied to J Ventures willfully consipring to act and causing others to act in the United States as agents of a foreign principal, the Israel Defence Force to wit, without prior registration under the United States Foreign Agent Registration Act.
+We condemn the deployment of artificial intelligence (AI) where it indiscriminately kills civilians and risks crimes against humanity. We urge an urgent review of public and private sector AI in conflicts and the deployment of autonomous and semi-autonomous AI for state violence.
 
-<a href="https://jackpoulson.substack.com/p/inside-the-pro-israel-information" class="button">See Report</a>
+![AI Targeting](target.jpg)
 
-### 'We have obtained access to thousands of the group’s WhatsApp messages dating back to mid-October, and an intricate spreadsheet where group participants request and claim tasks ranging from social media responses to IDF support shipments. Separately, we have viewed a number of video meetings charting best practices for “hasbara” –-- an Israeli term of art for “public diplomacy” whose detractors see it as a euphemism for propaganda -- that offer a window into Israel’s public-relations war that is not limited to the tech sector.'[^1]
+## We must act now to prohibit AI deployed for the use of force even where humans retain control.
 
-…
+As we have witnessed, Israel's devastating military campaign made possible by AI is indefensible and has killed tens of thousands of Gazans, nearing a hundred journalists, targeted over a hundred health facilities and destroyed tens of thousands of dwellings. The speed and scale of destruction is only possible with AI targeting. Even with human control, the humanitarian crisis plainly challenges the Department of Defense (DoD) claims that "artificial intelligence (AI) technologies enable leaders to make better decisions faster, from the boardroom to the battlefield."[^1]
 
-## [Resist.bot](https://resist.bot/petitions/PBHHKL): Text SIGN PBHHKL to <a href="tel:50409">50409</a> 
+As technology workers, we are appalled and concerned by the reporting[^2] of AI in scaling this war and the slaughter of Palestinian civilians it has wrought. "Operation Iron Swords," which followed the Hamas led assault in southern Israel on October 7th, has seen a significant expansion in its targeting of facilities not military in nature, including historic sites, apartment blocks, residences, schools, humanitarian buildings, and public infrastructure, intended to shock the civilian population into submission. Intelligence units using AI, know in advance approximately how many civilians will be killed with a "civilian-to-combatant deaths is at least five to one and probably much greater."[^3] Indiscriminate AI targeting and collateral damage estimations far exceed the DoD's standard of lawful and ethical behavior, suggesting that any use AI in armed conflicts cannot be regulated.
 
-…
+Since October 7th, Israel has targeted over tens of thousands of targets, an unprecedented figure compared to previous operations, many of which have little to no military value. In a statement, the IDF confirmed that the AI system Habsora "enables the use of automatic tools to produce targets at a fast pace, and works by improving accurate and high-quality intelligence material according to operational needs … causing great damage to the enemy and minimal damage to non-combatants."[^1] It generates bombing sites in real time that "tens of thousands of intelligence officers could not process," with an "emphasis on quantity and not on quality," generating targets faster than strikes can be conducted. The results of relying on AI have led to indiscriminate bombings and collateral damage far exceeding other modern conflicts that are also likely illegal under international humanitarian law.
 
-## Letter to the DOJ
+We are the first to witness AI warfare and mass slaughter deployed to a blockaded populated, half of whom are children. What targets are AI decision support systems surfacing that call for heavy bombing among residential blocks? How does AI weigh vulnerable populations like children, the elderly and injured in its collateral damage estimations? Does AI consider humanitarian operations in the area? Gaza is the first war deployment of AI at this magnitude, over 40,000 tonnes or the equivalent of three nuclear bombs worth and it will not be the last unless action is taken. This AI enabled bombing campaign continues unabated because of US supplied munitions[^4]. Semi-autonomous AI warfare has already been shown to:
 
-### To: fara.public@usdoj.gov
-### Subject: Reporting FARA Violations by J Ventures
-### Body:
+- Have no limits in its collateral damage
+- Maximize civilian harm in its campaigns
+- Operate with little human interaction and oversight, and
+- Conduct destruction at a tempo and totality unseen before
 
-Employees of J Ventures, as disclosed in leaks of WhatsApp and Zoom cache, have been working in close contact with foreign principals since the October 7th start of the Israel-Palestine War.  
-  
-Based on reporting from Jack Paulson and Lee Fang titled "Inside the Pro-Israel Information War"[^1], members of the WhatsApp "J-Ventures Global Kibbutz Group" under the leadership of Oded Hermoni, Michael Rolnick, Eran Sandhaus, Jim Koshland, Andy Cohen, Stephani Cherrin, David Wagonfeld, Dina Nathusius, Sandy Cardin and Nadav Ben-Chanoch with support from the American Israel Public Affairs Committee, have on advice of Israeli Defense Force principals, carried out operations to:  
-  
-- Retaliate against employees  
-- Hound Israel critics  
-- Cancel congresspersons speaking engagements  
-- Moderate and censor social and visual media  
-- Blacklist academia and students  
-- Smear nonprofits and journalists; and  
-- Attempt to ship military-grade equipment abroad  
-  
-I am asking for a thorough investigation into whether the following persons named in this report knowingly and willfully conspired to act and cause others to act in the United States as an agent of a foreign principal without prior registration under the Foreign Agent Registration Act.  
-  
-[^1]: https://open.substack.com/pub/jackpoulson/p/inside-the-pro-israel-information
+![Nakba AI](nakba.jpg)
 
-<a href="mailto:fara.public@usdoj.gov?subject=Reporting%20FARA%20Violations%20by%20J%20Ventures" class="button">Email Department of Justice</a>
---
-## Excerpts[^1]
+## Stop Catastrophic AI
 
-<div class="row">
-<div class="col-6">
+Catastrophic AI operates well beyond compliance with international humanitarian law (IHL) and it can be safely assumed that Israel's civilian casualties will near 20 times that of Russia's targeting of Ukrainian civilians[^5] while casualties among children dwarf previous recorded conflicts. This campaign makes an urgent call to address the harms of semi-autonomous and autonomous use of AI and for new international laws on deploying AI to armed conflicts. This leap in AI warfare represents a grave violation of international humanitarian law, risks setting a new precedence for civilian harm in ongoing conflicts and incentivizes an AI arms race driving humanity to complete catastrophe not unlike what we've witnessed in Gaza.
 
-### Just days after the Oct. 7 surprise attack on Israel from Hamas, Lt. Col. Jonathan Conricus, a spokesperson for Israel Defense Forces, beamed into a Zoom meeting to brief pro-Israel activists from Silicon Valley. The participants included major venture capitalists and technology executives, such as Jordan Blashek, the President of America’s Frontier Fund, a national security investment firm backed by former Google CEO Eric Schmidt.
+We are calling for private and public sector leaders to determine the extent to which AI services and technologies have been deployed to the war field and act in accordance with the United States Conventional Arms Transfer Policy where it is “more likely than not” that the weapons will be used to commit or “aggravate the risks” that the recipient will commit “genocide; crimes against humanity … including attacks intentionally directed against civilian objects or civilians protected as such; or other serious violations of international humanitarian or human rights law, including … serious acts of violence against children.”[^6]
 
-![An IDF presentation shared by Israeli Ministry of Foreign Affairs](https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7ecff7e5-40c5-4bed-ae1c-92d6d2bfe38a_1600x894.png)
+We stand with the UN Secretary-General and the International Committee of the Red Cross in calling for a legal instrument on artificial intelligence in the military before catastrophic AI proliferates.
 
-### That’s where the efforts of J-Ventures’ hasbara WhatsApp group come in. The group, which also includes attorneys and individuals affiliated with the influential American Israel Public Affairs Committee (AIPAC), has tirelessly worked to fire employees and punish activists for expressing pro-Palestinian views. It has also engaged in a successful push to cancel events held by prominent Palestinian voices, including an Arizona State University talk featuring Rep. Rashida Tlaib … In some cases, officials from the IDF and other parts of the Israeli government have joined the effort. David, the Israeli foreign ministry official and an investor in J-Ventures, has shared official talking points in the WhatsApp group.
-
-![Slides from a Nov. 22 presentation given by Adam Fisher, the Israel country manager of Bessemer Venture Partners](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F41490f17-a147-4093-b2c2-5303ec869063_1600x874.jpeg)
-
-</div>
-<div class="col-6">
-
-### The WhatsApp group, spreadsheet, and various video discussions offer a rare public glimpse of how Israel and its American allies harness Israel’s influential tech sector and tech diaspora to run cover for the Jewish state as it endures scrutiny over the humanitarian impact of its invasion of Gaza.
-![WhatsApp Message](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0bae5b38-375f-49b6-a8c7-7aca00be6db4_1959x1332.png)
-
-### The WhatsApp chats provide a rare look at the organizing efforts behind the broad push to fire critics of Israel and suppress public events featuring critics of the Israeli government … Sometimes it is unclear whether the group’s members actually have elite IDF and Israeli government connections, or are merely engaging in idle bluster. Saar Gillai, chair of Liquid Instruments and board member to several other tech companies, said he had passed the Palestinian solidarity organizing document "to 'friends' in places s tarting [sic] with 8....," an apparent reference to Israeli military intelligence Unit 8200. Unit 8200 is both a massive communications interception operation -- Israel’s rough equivalent to the U.S. National Security Agency -- and an elite intelligence analysis and cybersecurity unit that has become a springboard for Israel’s booming tech startup sector. 
-
-![U.S. Congressman Ro Khanna (D-CA) and J-Ventures managing partner Oded Hermoni](https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffda2cc7b-407f-4b7e-b732-250fd9024872_1600x900.png)
-
-</div>
-</div>
-
-…
-
-## [Resist.bot](https://resist.bot/petitions/PBHHKL): Text SIGN PBHHKL to <a href="tel:50409">50409</a> 
+[^1]:https://www.defense.gov/News/Releases/Release/Article/3577857/deputy-secretary-of-defense-kathleen-hicks-announces-publication-of-data-analyt/
+[^2]:https://www.theguardian.com/world/2023/dec/01/the-gospel-how-israel-uses-ai-to-select-bombing-targets
+[^3]:https://responsiblestatecraft.org/israel-destroy-gaza/
+[^4]:https://www.amnesty.org/en/latest/news/2023/12/israel-opt-us-made-munitions-killed-43-civilians-in-two-documented-israeli-air-strikes-in-gaza-new-investigation/
+[^5]:https://journals.sagepub.com/doi/10.1177/00223433231185169
+[^6]:https://www.whitehouse.gov/briefing-room/presidential-actions/2023/02/23/memorandum-on-united-states-conventional-arms-transfer-policy/
 
 <!-- <div class="container">
 
