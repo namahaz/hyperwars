@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
-	<title>Stop Tech Foreign Agents</title>
-	<subtitle>Inside the Pro-Israel Information War</subtitle>
-	<link href="https://stoptechforeignagents.github.io/feed/feed.xml" rel="self"/>
-	<link href="https://stoptechforeignagents.github.io/"/>
-	<updated>2023-12-11T23:11:13Z</updated>
-	<id>https://stoptechforeignagents.github.io</id>
+	<title>Hyperwars</title>
+	<subtitle>Highlighting the risks of AI, speculating atrocities and advocating to stop hyperwars before societal catastrophe.</subtitle>
+	<link href="https://hyperwars.org/feed/feed.xml" rel="self"/>
+	<link href="https://hyperwars.org/"/>
+	<updated>2023-12-15T21:39:31Z</updated>
+	<id>https://hyperwars.org</id>
 	<author>
-		<name>Stop Tech Foreign Agents</name>
+		<name>Stop Hyperwars</name>
 		<email></email>
 	</author>
 </feed>
