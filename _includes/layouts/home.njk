@@ -1,5 +1,21 @@
 ---
 layout: layouts/base.njk
 ---
+<div class="">
 
-{{ content | safe }}
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="https://cdn.theatlantic.com/thumbor/Hi9B-YSdYXXlby-Gl-ovnKFSJY4=/1500x844/media/img/photo/2023/10/photos-destruction-gaza-1/a02_RC2XW3A5I4N4/original.jpg">
+            </div>
+            <div class="col is-align-end">
+                <h2>{{ metadata.description }}</h2>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="container">
+    {{ content | safe }}
+</div>
