@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Palestine Update</title>
+		<meta name="description" content="This is a post on My Blog about agile frameworks.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Hyperwars">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Hyperwars">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Saira:wdth,wght@50..125,400..900&display=swap" rel="stylesheet">
+
+		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛑</text></svg>">
+		<link rel="stylesheet" href="https://unpkg.com/chota">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
+:root {
+	--bg-color: #ffffff;
+	--bg-secondary-color: #fcc419;
+	--grid-maxWidth: 140rem;
+	--grid-gutter: 2rem;
+	--font-color: #212529;
+	--color-primary: #e8590c;
+	--color-error: #e03131;
+	--color-success: #3b5bdb;
+	--color-darkGrey: #141619;
+	--font-family-sans: "Saira", sans-serif;
+	--font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+	--font-size: 2rem;
+}
+
+.bg-secondary {
+	background-color: var(--bg-secondary-color);
+}
+
+.dark-mode {
+	--bg-color: #141619;
+	--bg-secondary-color: #141619;
+	--font-color: #f1f3f5;
+	--color-grey: #ced4da;
+	--color-darkGrey: #ced4da;
+}
+
+h1 {
+	font-size: 5.2rem;
+	line-height: 1.25;
+	font-stretch: 104%;
+	font-weight: 440;
+	letter-spacing: -0.04em;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 4rem;
+	line-height: 1.25;
+	font-stretch: 92%;
+}
+
+h3 {
+	font-weight: 480;
+	font-size: 3.2rem;
+	line-height: 1.25;
+	font-stretch: 108%;
+}
+
+h4 {
+	font-weight: 450;
+	font-size: 2.8rem;
+	margin: 0;
+	line-height: 1.25;
+	font-stretch: semi-expanded;
+}
+
+center {
+	text-align: center;
+}
+
+header {
+	position: fixed;
+	top: 0;
+}
+
+footer {
+	position: fixed;
+	bottom: 0.25cm;
+	left:0.25cm;
+}
+
+article {
+	position: relative;
+}
+
+/* nav {
+	position: fixed;
+	top: 0;
+} */
+
+aside {
+	position: absolute;
+	bottom: 0;
+}
+
+article {
+	break-after: page;
+}
+
+.intro {
+	height: 40vh;
+	background-image: url(https://cdn.theatlantic.com/thumbor/Pftzz4C3UNk_jwWF5U_RBCfXYaY=/1500x1002/media/img/photo/2023/10/photos-destruction-gaza-1/a03_1740591009/original.jpg) ;
+	background-size: cover;
+}
+
+.is-align-end {
+	align-self: end;
+}
+
+@page {
+	size: letter;
+	margin: 0.125in;
+}
+
+@media print {
+
+	nav {
+		display: none;
+	}
+
+	h1 {
+		font-size: 8.6rem;
+	}
+
+	h2 {
+		font-size: 4.4rem;
+	}
+
+	h3 {
+		font-size: 2.8rem;
+	}
+
+	article {
+		height: 100vh;
+	}
+
+}
+
+@media screen and (max-width: 599px) {
+	h1 {
+		font-size: 6rem;
+	}
+
+	h2 {
+		font-size: 3.2rem;
+	}
+
+	h3 {
+		font-size: 2.4rem;
+	}
+	.is-full-screen {
+		min-height: auto;
+	}
+}</style>
+	</head>
+	<body>
+		<nav class="nav">
+    <div class="container">
+        <div class="nav-left">
+            <a href="/"><h3 class="is-marginless">Hyperwars</h1></a>
+            <a href="javascript:document.body.classList.toggle('dark-mode')">🌚</a>
+
+        </div>
+        <div class="nav-right">
+            <div class="tabs">
+                
+                    <a href="/foreignagents/">Foreign Agents</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+		<main id="skip">
+			<div class="container">
+
+
+<h1 class="is-marginless">Palestine Update</h1>
+<time datetime="2023-12-15">15 December 2023</time>
+<div class="post-metadata">
+	<span><a href="/tags/briefs/" class="post-tag">briefs</a>, </span>
+	<span><a href="/tags/palestine/" class="post-tag">palestine</a></span>
+</div>
+
+<h2 id="this-is-an-update" tabindex="-1">This is an update <a class="header-anchor hide-xs hide-sm hide-md hide-lg" href="#this-is-an-update" aria-hidden="true">#</a></h2>
+<p>Some text</p>
+
+
+</div>
+
+		</main>
+
+		<!-- Current page: /briefs/12-15-23/ -->
+	</body>
+</html>

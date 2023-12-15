@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>Hyperwars</title>
-	<subtitle>Highlighting the risks of AI, speculating atrocities and advocating to stop hyperwars before societal catastrophe.</subtitle>
+	<subtitle>Tracking the risks of deploying artificial intelligence in conflicts, speculating on human futures and advocating to stop hyperwars.</subtitle>
 	<link href="https://hyperwars.org/feed/feed.xml" rel="self"/>
 	<link href="https://hyperwars.org/"/>
-	<updated>2023-12-15T21:58:47Z</updated>
+	<updated>2023-12-15T23:13:29Z</updated>
 	<id>https://hyperwars.org</id>
 	<author>
 		<name>Stop Hyperwars</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Palestine Update</title>
+		<link href="https://hyperwars.org/briefs/12-15-23/"/>
+		<updated>2023-12-15T00:00:00Z</updated>
+		<id>https://hyperwars.org/briefs/12-15-23/</id>
+		<content type="html">&lt;h2 id=&quot;this-is-an-update&quot; tabindex=&quot;-1&quot;&gt;This is an update &lt;a class=&quot;header-anchor hide-xs hide-sm hide-md hide-lg&quot; href=&quot;https://hyperwars.org/briefs/12-15-23/&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Some text&lt;/p&gt;
+</content>
+	</entry>
 </feed>
