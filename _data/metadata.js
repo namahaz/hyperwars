@@ -1,11 +1,11 @@
 module.exports = {
-	title: "Stop Tech Foreign Agents",
-	url: "https://stoptechforeignagents.github.io",
+	title: "Hyperwars",
+	url: "https://hyperwars.org",
 	language: "en",
-	description: "Inside the Pro-Israel Information War",
+	description: "Highlighting the risks of AI, speculating atrocities and advocating to stop hyperwars before societal catastrophe.",
 	author: {
-		name: "Stop Tech Foreign Agents",
+		name: "Stop Hyperwars",
 		email: "",
-		url: "https://stoptechforeignagents.github.io"
+		url: "https://hyperwars.org"
 	}
 }
