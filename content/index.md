@@ -24,3 +24,5 @@ Information wars target dissent and aim to shift public opinion, often through d
 
 </div>
 </div>
+
+{% include "intro.md" %}
