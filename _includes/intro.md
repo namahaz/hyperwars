@@ -1,6 +1,5 @@
----
-
-# An Intro to Hyperwars
+# Intro to Hyperwars
+![AI Targeting](target.jpg)
 
 The role of AI looms large in emerging miltary character. Known also as mosaic warfare, or software defined warfare, hyperwar is an AI mediated warfare with little meaningful human control as compared to older decision loops. Whether in the loop, on the loop or out of the loop, hyperwar incorporates mixed software autonomies and arrives at decisions must faster than humans. However AI practices are opaque and perform poorly in discerning between threats and civilians, miltary targets and humanitarian operations.
 
@@ -19,3 +18,5 @@ Stop Hyperwars is a think-tank of software professionals that tracks the risks o
 [^1]: https://www.americansecurityproject.org/hyperwar-how-militarized-ai-is-transforming-the-decision-making-loop/
 [^2]: https://www.nationaldefensemagazine.org/articles/2023/3/24/ukraine-a-living-lab-for-ai-warfare
 [^3]: https://www.jstor.org/stable/48640745?seq=12
+
+![Nakba](nakba.jpg)

@@ -2,16 +2,16 @@
 layout: layouts/home.njk
 numberOfLatestPostsToShow: 3
 eleventyNavigation:
-  key: Briefs
-  order: 2
+  key: Cases
+  order: 1
 ---
 <div class="container">
 
-{% set postsCount = collections.briefs | length %}
+{% set postsCount = collections.cases | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Briefs{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<h1>Latest {{ latestPostsCount }} Cases{% if latestPostsCount != 1 %}s{% endif %}</h1>
 
-{% set postslist = collections.briefs | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslist = collections.cases | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
 
