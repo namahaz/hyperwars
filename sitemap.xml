@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
+		<loc>https://hyperwars.org/cases/jventures-information-war/</loc>
+		<lastmod>2023-12-07</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://hyperwars.org/_case-template/</loc>
+		<lastmod>2023-12-15</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://hyperwars.org/briefs/12-15-23/</loc>
 		<lastmod>2023-12-15</lastmod>
 	</url>
@@ -12,12 +22,12 @@
 	</url>
 	
 	<url>
-		<loc>https://hyperwars.org/actions/foreignagents/</loc>
+		<loc>https://hyperwars.org/briefs/</loc>
 		<lastmod>2023-12-16</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://hyperwars.org/briefs/</loc>
+		<loc>https://hyperwars.org/cases/</loc>
 		<lastmod>2023-12-16</lastmod>
 	</url>
 	
@@ -52,7 +62,7 @@
 	</url>
 	
 	<url>
-		<loc>https://hyperwars.org/tags/actions/</loc>
+		<loc>https://hyperwars.org/tags/cases/</loc>
 		<lastmod>2023-12-16</lastmod>
 	</url>
 </urlset>
