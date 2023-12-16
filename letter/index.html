@@ -19,7 +19,7 @@
 * { box-sizing: border-box; }
 :root {
 	--bg-color: #ffffff;
-	--bg-secondary-color: #fcc419;
+	--bg-secondary-color: #f1f3f5;
 	--grid-maxWidth: 140rem;
 	--grid-gutter: 2rem;
 	--font-color: #212529;
@@ -117,6 +117,23 @@ article {
 	align-self: end;
 }
 
+@media screen and (max-width: 599px) {
+	h1 {
+		font-size: 4rem;
+	}
+
+	h2 {
+		font-size: 3.2rem;
+	}
+
+	h3 {
+		font-size: 2.4rem;
+	}
+	.is-full-screen {
+		min-height: auto;
+	}
+}
+
 @page {
 	size: letter;
 	margin: 0.125in;
@@ -144,37 +161,19 @@ article {
 		height: 100vh;
 	}
 
-}
-
-@media screen and (max-width: 599px) {
-	h1 {
-		font-size: 6rem;
-	}
-
-	h2 {
-		font-size: 3.2rem;
-	}
-
-	h3 {
-		font-size: 2.4rem;
-	}
-	.is-full-screen {
-		min-height: auto;
-	}
 }</style>
 	</head>
 	<body>
 		<nav class="nav">
     <div class="container">
         <div class="nav-left">
-            <a href="/"><h3 class="is-marginless">Hyperwars</h1></a>
-            <a href="javascript:document.body.classList.toggle('dark-mode')">🌚</a>
+            <a href="/"><h3 class="is-marginless">Stop Hyperwars</h1></a>
+            
 
         </div>
         <div class="nav-right">
             <div class="tabs">
                 
-                    <a href="/foreignagents/">Foreign Agents</a>
             </div>
         </div>
     </div>

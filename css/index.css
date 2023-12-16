@@ -1,6 +1,6 @@
 :root {
 	--bg-color: #ffffff;
-	--bg-secondary-color: #fcc419;
+	--bg-secondary-color: #f1f3f5;
 	--grid-maxWidth: 140rem;
 	--grid-gutter: 2rem;
 	--font-color: #212529;
@@ -98,6 +98,23 @@ article {
 	align-self: end;
 }
 
+@media screen and (max-width: 599px) {
+	h1 {
+		font-size: 4rem;
+	}
+
+	h2 {
+		font-size: 3.2rem;
+	}
+
+	h3 {
+		font-size: 2.4rem;
+	}
+	.is-full-screen {
+		min-height: auto;
+	}
+}
+
 @page {
 	size: letter;
 	margin: 0.125in;
@@ -125,21 +142,4 @@ article {
 		height: 100vh;
 	}
 
-}
-
-@media screen and (max-width: 599px) {
-	h1 {
-		font-size: 6rem;
-	}
-
-	h2 {
-		font-size: 3.2rem;
-	}
-
-	h3 {
-		font-size: 2.4rem;
-	}
-	.is-full-screen {
-		min-height: auto;
-	}
 }

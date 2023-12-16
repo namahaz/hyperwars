@@ -7,37 +7,52 @@
 	</url>
 	
 	<url>
+		<loc>https://hyperwars.org/actions/</loc>
+		<lastmod>2023-12-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://hyperwars.org/actions/foreignagents/</loc>
+		<lastmod>2023-12-16</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://hyperwars.org/briefs/</loc>
-		<lastmod>2023-12-15</lastmod>
+		<lastmod>2023-12-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://hyperwars.org/foreignagents/</loc>
-		<lastmod>2023-12-15</lastmod>
+		<lastmod>2023-12-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://hyperwars.org/</loc>
-		<lastmod>2023-12-15</lastmod>
+		<lastmod>2023-12-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://hyperwars.org/letter/</loc>
-		<lastmod>2023-12-15</lastmod>
+		<lastmod>2023-12-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://hyperwars.org/tags/</loc>
-		<lastmod>2023-12-15</lastmod>
+		<lastmod>2023-12-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://hyperwars.org/tags/briefs/</loc>
-		<lastmod>2023-12-15</lastmod>
+		<lastmod>2023-12-16</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://hyperwars.org/tags/palestine/</loc>
-		<lastmod>2023-12-15</lastmod>
+		<lastmod>2023-12-16</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://hyperwars.org/tags/actions/</loc>
+		<lastmod>2023-12-16</lastmod>
 	</url>
 </urlset>
