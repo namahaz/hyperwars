@@ -1,21 +1,16 @@
 ---
 layout: layouts/base.njk
 ---
-<div class="">
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <img src="https://cdn.theatlantic.com/thumbor/Hi9B-YSdYXXlby-Gl-ovnKFSJY4=/1500x844/media/img/photo/2023/10/photos-destruction-gaza-1/a02_RC2XW3A5I4N4/original.jpg">
-            </div>
-            <div class="col is-align-end">
-                <h2>{{ metadata.description }}</h2>
-            </div>
-        </div>
-    </div>
-
+<div data-section data-grid data-columns="2" data-gap="7" data-my="6">
+  <div>
+    <img src="nakba.jpg">
+  </div>
+  <div data-self="end">
+    <h2>{{ metadata.description }}</h2>
+  </div>
 </div>
 
-<div class="container">
-    {{ content | safe }}
+<div data-grid data-columns='1' data-rowGap='3' data-section>
+  {{ content | safe }}
 </div>

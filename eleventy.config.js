@@ -95,12 +95,11 @@ module.exports = function(eleventyConfig) {
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItAnchor, {
-			permalink: markdownItAnchor.permalink.ariaHidden({
-				placement: "after",
-				class: "header-anchor hide-xs hide-sm hide-md hide-lg",
-				symbol: "#",
-				ariaHidden: true,
-			}),
+			// permalink: markdownItAnchor.permalink.ariaHidden({
+			// 	placement: "after",
+			// 	symbol: "",
+			// 	ariaHidden: true,
+			// }),
 			level: [1,2,3,4],
 			slugify: eleventyConfig.getFilter("slugify")
 		});
