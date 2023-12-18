@@ -2,7 +2,7 @@
 layout: layouts/home.njk
 ---
 
-# Hyperwars are conflicts that employ artificial intelligence (AI) in military or state operations without meaningful human control (MHC) leading to:
+# Hyperwars are conflicts that employ artificial intelligence (AI) in military or state operations without meaningful human control (MHC) leading to: {data-mt="7"}
 
 <div data-grid data-columns="3" data-gap="3">
 
