@@ -14,7 +14,7 @@
 			"id": "https://hyperwars.org/briefs/12-15-23/",
 			"url": "https://hyperwars.org/briefs/12-15-23/",
 			"title": "Palestine Update",
-			"content_html": "<h2 id=\"this-is-an-update\" tabindex=\"-1\">This is an update <a class=\"header-anchor hide-xs hide-sm hide-md hide-lg\" href=\"https://hyperwars.org/briefs/12-15-23/\" aria-hidden=\"true\">#</a></h2>\n<p>Some text</p>\n",
+			"content_html": "<h2 id=\"this-is-an-update\" tabindex=\"-1\">This is an update</h2>\n<p>Some text</p>\n",
 			"date_published": "2023-12-15T00:00:00Z"
 		}
 		

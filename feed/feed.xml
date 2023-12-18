@@ -4,7 +4,7 @@
 	<subtitle>Tracking the risks of deploying artificial intelligence in conflicts, speculating on human futures and advocating to stop hyperwars.</subtitle>
 	<link href="https://hyperwars.org/feed/feed.xml" rel="self"/>
 	<link href="https://hyperwars.org/"/>
-	<updated>2023-12-16T21:39:00Z</updated>
+	<updated>2023-12-18T15:46:11Z</updated>
 	<id>https://hyperwars.org</id>
 	<author>
 		<name>Stop Hyperwars</name>
@@ -16,7 +16,7 @@
 		<link href="https://hyperwars.org/briefs/12-15-23/"/>
 		<updated>2023-12-15T00:00:00Z</updated>
 		<id>https://hyperwars.org/briefs/12-15-23/</id>
-		<content type="html">&lt;h2 id=&quot;this-is-an-update&quot; tabindex=&quot;-1&quot;&gt;This is an update &lt;a class=&quot;header-anchor hide-xs hide-sm hide-md hide-lg&quot; href=&quot;https://hyperwars.org/briefs/12-15-23/&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+		<content type="html">&lt;h2 id=&quot;this-is-an-update&quot; tabindex=&quot;-1&quot;&gt;This is an update&lt;/h2&gt;
 &lt;p&gt;Some text&lt;/p&gt;
 </content>
 	</entry>
