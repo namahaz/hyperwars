@@ -1,18 +1,13 @@
-<nav class="nav">
-    <div class="container">
-        <div class="nav-left">
-            <a href="/"><h3 class="is-marginless">Hyperwars</h1></a>
-            <a href="javascript:document.body.classList.toggle('dark-mode')">🌚</a>
-
-        </div>
-        <div class="nav-right">
-            <div class="tabs">
-                {# <a href="javascript:if(window.print)window.print()">🖨</a> #}
-
-                {%- for entry in collections.all | eleventyNavigation %}
-                    <a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a>
-                {%- endfor %}
-            </div>
-        </div>
+<header data-my="2">
+  <nav data-section data-flex="row wrap">
+    <div data-mr="4" data-grow="1">
+      <a href="/" data-h2>Stop Hyperwars</a>
+      {# <a href="javascript:document.body.classList.toggle('dark-mode')">🌚</a> #}
     </div>
-</nav>
+    <div data-ml="4" data-tab data-justify="end" data-grow="2">
+      {%- for entry in collections.all | eleventyNavigation %}
+        <a data-mr="4" href="{{ entry.url }}" {% if entry.url == page.url %} aria-current="page" {% endif %}>{{ entry.title }}</a>
+      {%- endfor %}
+    </div>
+  </nav>
+</header>

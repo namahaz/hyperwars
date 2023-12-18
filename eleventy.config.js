@@ -10,7 +10,21 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
+const markdownIt = require('markdown-it')
+const markdownItAttrs = require('markdown-it-attrs')
+
+const markdownItOptions = {
+  html: true,
+  breaks: true,
+  linkify: true
+}
+
+const markdownLib = markdownIt(markdownItOptions).use(markdownItAttrs)
+
 module.exports = function(eleventyConfig) {
+
+	eleventyConfig.setLibrary('md', markdownLib)
+
 	// Copy the contents of the `public` folder to the output folder
 	// For example, `./public/css/` ends up in `_site/css/`
 	eleventyConfig.addPassthroughCopy({
@@ -81,12 +95,11 @@ module.exports = function(eleventyConfig) {
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", mdLib => {
 		mdLib.use(markdownItAnchor, {
-			permalink: markdownItAnchor.permalink.ariaHidden({
-				placement: "after",
-				class: "header-anchor hide-xs hide-sm hide-md hide-lg",
-				symbol: "#",
-				ariaHidden: true,
-			}),
+			// permalink: markdownItAnchor.permalink.ariaHidden({
+			// 	placement: "after",
+			// 	symbol: "",
+			// 	ariaHidden: true,
+			// }),
 			level: [1,2,3,4],
 			slugify: eleventyConfig.getFilter("slugify")
 		});

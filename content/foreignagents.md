@@ -1,8 +1,5 @@
 ---
 layout: layouts/md.njk
-eleventyNavigation:
-  key: Foreign Agents
-  order: 2
 ---
 # "Inside the Pro-Israel Information War"[^1]
 
@@ -71,28 +68,3 @@ I am asking for a thorough investigation into whether the following persons name
 …
 
 ## [Resist.bot](https://resist.bot/petitions/PBHHKL): Text SIGN PBHHKL to <a href="tel:50409">50409</a> 
-
-<!-- <div class="container">
-
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
-
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
-
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>
-{% endif %}
-
-</div>
-{# List every content page in the project #}
-{#
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
-</ul>
-#} -->

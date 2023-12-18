@@ -2,7 +2,7 @@ module.exports = {
 	title: "Hyperwars",
 	url: "https://hyperwars.org",
 	language: "en",
-	description: "Highlighting the risks of AI, speculating atrocities and advocating to stop hyperwars before societal catastrophe.",
+	description: "Tracking the risks of deploying artificial intelligence in conflicts, speculating on human futures and advocating to stop hyperwars.",
 	author: {
 		name: "Stop Hyperwars",
 		email: "",
