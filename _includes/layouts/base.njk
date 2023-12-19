@@ -6,7 +6,7 @@
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
 		<meta property="og:description" content="{{ metadata.description }}">
-		<meta property="og:image" content="http://hyperwars.org/home.jpg">
+		<meta property="og:image" content="http://hyperwars.org{{ cover or metadata.cover}}">
 
 
 		{#- Atom and JSON feeds included by default
@@ -25,7 +25,7 @@
     <meta name="twitter:site" content="{{ metadata.author.name }}" />
     <meta name="twitter:title" content="{{ metadata.title }}" />
     <meta name="twitter:description" content="{{ description or metadata.description }}" />
-    <meta name="twitter:image" content="http://hyperwars.org/home.jpg" />
+    <meta name="twitter:image" content="http://hyperwars.org{{ cover or metadata.cover}}" />
 
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
