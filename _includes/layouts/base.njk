@@ -12,7 +12,6 @@
 		<meta property="og:image" content="http://hyperwars.org{{ cover or metadata.cover}}">
     <meta property="og:url" content="{{ metadata.url}}{{ page.url }}">
 
-
 		{#- Atom and JSON feeds included by default
 		<link rel="stylesheet" href="https://unpkg.com/chota">
 		#}
@@ -61,6 +60,8 @@
 		<main id="skip">
 			{{ content | safe }}
 		</main>
+
+    {% include "disclaimer.njk" %}
 
 		<!-- Current page: {{ page.url | htmlBaseUrl }} -->
 	</body>
