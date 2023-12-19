@@ -2077,7 +2077,7 @@ body {
   --headings-line-height: 1.25;
   --body-line-height: 1.5;
   --body-bg-color: var(--gray-1);
-	--content-width: var(--dimension-12);
+	--content-width: 92rem;
   --h1: 3.5rem;
   --h2: 2.25rem;
   --h3: var(--fonts-7);
@@ -2150,7 +2150,7 @@ center {
 	align-self: end;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 48rem) {
 	h1 {
 		font-size: 4rem;
 	}
@@ -2162,9 +2162,24 @@ center {
 	h3 {
 		font-size: 2.4rem;
 	}
+
 	.is-full-screen {
 		min-height: auto;
 	}
+
+  [data-section] {
+    margin: 0 var(--space-4);
+  }
+
+  .case-order-2 {
+    order: 2;
+  }
+
+  .case-order-3 {
+    order: 3;
+  }
+
+
 }
 
 @page {

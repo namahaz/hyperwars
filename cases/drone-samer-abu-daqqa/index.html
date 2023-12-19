@@ -1909,7 +1909,7 @@ body {
   --headings-line-height: 1.25;
   --body-line-height: 1.5;
   --body-bg-color: var(--gray-1);
-	--content-width: var(--dimension-12);
+	--content-width: 92rem;
   --h1: 3.5rem;
   --h2: 2.25rem;
   --h3: var(--fonts-7);
@@ -1982,7 +1982,7 @@ center {
 	align-self: end;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 48rem) {
 	h1 {
 		font-size: 4rem;
 	}
@@ -1994,9 +1994,24 @@ center {
 	h3 {
 		font-size: 2.4rem;
 	}
+
 	.is-full-screen {
 		min-height: auto;
 	}
+
+  [data-section] {
+    margin: 0 var(--space-4);
+  }
+
+  .case-order-2 {
+    order: 2;
+  }
+
+  .case-order-3 {
+    order: 3;
+  }
+
+
 }
 
 @page {
@@ -2055,9 +2070,9 @@ center {
     <time datetime="2023-12-15">15 December 2023</time><br /><span data-chip>Draft</span>
     <h5 data-mt="7">Location</h5>
     Khan Younis, Gaza
-    <p data-mt="7"><a href="https://github.com/namahaz/hyperwars-org/issues" taget="_blank">Contribute</a></p>
+    <div data-mt="7"><a href="https://github.com/namahaz/hyperwars-org/issues" taget="_blank">Contribute on GitHub</a></div>
   </div>
-  <div data-cell data-span='3'>
+  <div data-cell data-span='3' class="case-order-3">
     <h5>Assessment</h5>
     <p>On December 15, 2023, Al Jazeera journalist and Belgian national <strong>Samer Abu Daqqa</strong> (also written Samer Abudaqa) was struck by an Israeli drone strike likely twice and subsequently died as ambulances were prevented from reaching Samer for over 5 hours. The first strike likely was intended for a targeted school and the second reported strike was directed at the wounded Samer.</p>
 <p>Ibrahim Qanan, an al-Ghad reporter described the attack as direct targeting. “The first missile hit Samer and he tried to crawl for 200 metres, but the Israeli warplanes hit him again and directly, so he became a martyr and his body was cut into pieces.“ His colleague <strong>Wael Dahdouh</strong> who was also struck in the attack said after he got into an ambulance, &quot;I asked them to go back to where I was because Samer was still there and he was screaming and he was calling for help.&quot;</p>
@@ -2066,7 +2081,7 @@ center {
 <p>Hyperwars is seeking verification and tips on the type of drone(s) involved, ordinances and whether sniper drones prevented rescue. While there remains a possibility that other data sources lead to the strike, we are first seeking to narrow the nature of drones involved.</p>
 
   </div>
-	<div data-cell data-span='2'>
+	<div data-cell data-span='2' class="case-order-2">
 		<h5>Suspected Involvement</h3>
 		
 		<span>Israel Defence Forces, </span>
