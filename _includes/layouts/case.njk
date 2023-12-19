@@ -14,9 +14,10 @@ layout: layouts/base.njk
     <time datetime="{{ incident | htmlDateString }}">{{ incident | readableDate }}</time><br /><span data-chip>{{ status }}</span>
     <h5 data-mt="7">Location</h5>
     {{ location }}
+    <p data-mt="7"><a href="https://github.com/namahaz/hyperwars-org/issues" taget="_blank">Contribute</a></p>
   </div>
   <div data-cell data-span='3'>
-    <h4 data-width="100">Assessment</h4>
+    <h5>Assessment</h5>
     {{ content | safe }}
   </div>
 	<div data-cell data-span='2'>

@@ -29,12 +29,12 @@ numberOfLatestPostsToShow: 6
 {% set postsCount = collections.cases | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 
-<h1>Latest {{ latestPostsCount }} Case{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<h1>Latest Case{% if latestPostsCount != 1 %}s{% endif %}</h1>
 
 {% set postslist = collections.cases | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 
-{% include "postslist.njk" %}
+{% include "caseslist.njk" %}
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}

@@ -15,7 +15,7 @@ eleventyNavigation:
 
 {% set postslist = collections.cases | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
+{% include "caseslist.njk" %}
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
