@@ -3,7 +3,7 @@ layout: layouts/md.njk
 numberOfLatestPostsToShow: 3
 eleventyNavigation:
   key: About
-  order: 1
+  order: 2
 ---
 
 <div data-grid data-columns="7" data-gap="3">
