@@ -14,8 +14,7 @@
 
 		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛑</text></svg>">
 		
-		<style>.postlist { counter-reset: start-from 2 }
-* { box-sizing: border-box; }
+		<style>* { box-sizing: border-box; }
 * {
   margin: 0;
   padding: 0;
@@ -1913,7 +1912,8 @@ body {
   --h1: 3.5rem;
   --h2: 2.25rem;
   --h3: var(--fonts-7);
-  --h4: var(--fonts-6);
+  --h4: var(--fonts-5);
+  --h5: var(--fonts-3);
   --body-font-size: var(--fonts-5);
   --p-margin-bottom: var(--space-8);
 }
@@ -1951,9 +1951,20 @@ h3 {
 }
 
 h4 {
-	font-weight: 450;
+	font-weight: 500;
 	margin: 0;
 	font-stretch: semi-expanded;
+}
+
+h5 {
+	font-weight: 500;
+	margin: 0;
+	font-stretch: semi-condensed;
+  color: var(--gray-6);
+  text-decoration: overline;
+  text-decoration-color: var(--gray-4);
+  text-decoration-style: wavy;
+  text-transform: uppercase;
 }
 
 center {
@@ -2023,19 +2034,21 @@ center {
       <a href="/" data-h2>Stop Hyperwars</a>
       
     </div>
-    <div data-ml="4" data-tab data-justify="end" data-grow="2">
+    <div data-ml="4" data-flex data-justify="end" data-grow="2">
+        <a data-mr="4" href="/about/" ><b>About</b></a>
     </div>
   </nav>
 </header>
 
 		<main id="skip">
 			
-<div data-section data-grid data-columns="2" data-gap="7" data-my="6">
+<div data-grid data-columns="2" data-gap="7" data-my="6">
   <div>
-    <img src="nakba.jpg">
+    <img src="" data-height="4" data-width="100" data-fit="cover">
   </div>
   <div data-self="end">
     <h2>Tracking the risks of deploying artificial intelligence in conflicts, speculating on human futures and advocating to stop hyperwars.</h2>
+    <h6>Left: </h6>
   </div>
 </div>
 
@@ -2051,12 +2064,20 @@ center {
 
 
 
+<ol reversed data-grid data-columns="1">
 
-<ol reversed class="postlist">
-
-	<li class="postlist-item">
-		<a href="/briefs/12-15-23/" class="postlist-link">Palestine Update</a>
-		<time class="postlist-date" datetime="2023-12-15">December 2023</time>
+	<li data-p="6" data-bg="gray2" data-mb="7">
+    <div data-grid data-gap="6" data-columns="3">
+      <div>
+        <h5>Incident</h5>
+        <time datetime="Invalid DateTime">Invalid DateTime</time><br /><span data-chip></span>
+      </div>
+      <div>
+        <h5>Location</h5>
+        
+      </div>
+    </div>
+		<h2 data-mb="0"><a href="/briefs/12-15-23/" class="postlist-link">Palestine Update</a></h2>
 	</li>
 
 </ol>

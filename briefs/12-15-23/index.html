@@ -2080,7 +2080,8 @@ body {
   --h1: 3.5rem;
   --h2: 2.25rem;
   --h3: var(--fonts-7);
-  --h4: var(--fonts-6);
+  --h4: var(--fonts-5);
+  --h5: var(--fonts-3);
   --body-font-size: var(--fonts-5);
   --p-margin-bottom: var(--space-8);
 }
@@ -2118,9 +2119,20 @@ h3 {
 }
 
 h4 {
-	font-weight: 450;
+	font-weight: 500;
 	margin: 0;
 	font-stretch: semi-expanded;
+}
+
+h5 {
+	font-weight: 500;
+	margin: 0;
+	font-stretch: semi-condensed;
+  color: var(--gray-6);
+  text-decoration: overline;
+  text-decoration-color: var(--gray-4);
+  text-decoration-style: wavy;
+  text-transform: uppercase;
 }
 
 center {
@@ -2190,7 +2202,8 @@ center {
       <a href="/" data-h2>Stop Hyperwars</a>
       
     </div>
-    <div data-ml="4" data-tab data-justify="end" data-grow="2">
+    <div data-ml="4" data-flex data-justify="end" data-grow="2">
+        <a data-mr="4" href="/about/" ><b>About</b></a>
     </div>
   </nav>
 </header>

@@ -14,8 +14,7 @@
 
 		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛑</text></svg>">
 		
-		<style>.postlist { counter-reset: start-from 1 }
-* { box-sizing: border-box; }
+		<style>* { box-sizing: border-box; }
 * {
   margin: 0;
   padding: 0;
@@ -1913,7 +1912,8 @@ body {
   --h1: 3.5rem;
   --h2: 2.25rem;
   --h3: var(--fonts-7);
-  --h4: var(--fonts-6);
+  --h4: var(--fonts-5);
+  --h5: var(--fonts-3);
   --body-font-size: var(--fonts-5);
   --p-margin-bottom: var(--space-8);
 }
@@ -1951,9 +1951,20 @@ h3 {
 }
 
 h4 {
-	font-weight: 450;
+	font-weight: 500;
 	margin: 0;
 	font-stretch: semi-expanded;
+}
+
+h5 {
+	font-weight: 500;
+	margin: 0;
+	font-stretch: semi-condensed;
+  color: var(--gray-6);
+  text-decoration: overline;
+  text-decoration-color: var(--gray-4);
+  text-decoration-style: wavy;
+  text-transform: uppercase;
 }
 
 center {
@@ -2023,13 +2034,14 @@ center {
       <a href="/" data-h2>Stop Hyperwars</a>
       
     </div>
-    <div data-ml="4" data-tab data-justify="end" data-grow="2">
+    <div data-ml="4" data-flex data-justify="end" data-grow="2">
+        <a data-mr="4" href="/about/" ><b>About</b></a>
     </div>
   </nav>
 </header>
 
 		<main id="skip">
-			<div class="container">
+			<div data-section>
     <h1 id="stop-catastrophic-ai" tabindex="-1">Stop Catastrophic AI</h1>
 <p>We condemn the deployment of artificial intelligence (AI) where it indiscriminately kills civilians and risks crimes against humanity. We urge an urgent review of public and private sector AI in conflicts and the deployment of autonomous and semi-autonomous AI for state violence.</p>
 <p><img src="target.jpg" alt="AI Targeting"></p>
@@ -2057,8 +2069,7 @@ center {
 
 
 
-
-<ol reversed class="postlist">
+<ol reversed data-grid data-columns="1">
 
 </ol>
 
