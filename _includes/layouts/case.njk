@@ -14,13 +14,13 @@ layout: layouts/base.njk
     <time datetime="{{ incident | htmlDateString }}">{{ incident | readableDate }}</time><br /><span data-chip>{{ status }}</span>
     <h5 data-mt="7">Location</h5>
     {{ location }}
-    <p data-mt="7"><a href="https://github.com/namahaz/hyperwars-org/issues" taget="_blank">Contribute</a></p>
+    <div data-mt="7"><a href="https://github.com/namahaz/hyperwars-org/issues" taget="_blank">Contribute on GitHub</a></div>
   </div>
-  <div data-cell data-span='3'>
+  <div data-cell data-span='3' class="case-order-3">
     <h5>Assessment</h5>
     {{ content | safe }}
   </div>
-	<div data-cell data-span='2'>
+	<div data-cell data-span='2' class="case-order-2">
 		<h5>Suspected Involvement</h3>
 		{% for org in orgs %}
 		{%- set tagUrl %}/tags/{{ org | slugify }}/{% endset %}
