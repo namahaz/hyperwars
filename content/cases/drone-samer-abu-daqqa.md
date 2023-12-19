@@ -1,5 +1,5 @@
 ---
-title: The Drone Assasination of Samer Abu Daqqa
+title: The Drone Assassination of Samer Abu Daqqa
 description: This is a post on My Blog about agile frameworks.
 incident: 2023-12-15
 location:
