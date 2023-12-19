@@ -1,6 +1,6 @@
 ---
 title: The Drone Assassination of Samer Abu Daqqa
-description: This is a post on My Blog about agile frameworks.
+description: On December 15, 2023, Al Jazeera journalist and Belgian national **Samer Abu Daqqa** (also written Samer Abudaqa) was struck by an Israeli drone strike likely twice and subsequently died.
 incident: 2023-12-15
 location:
 - Khan Younis, Gaza
