@@ -4,7 +4,7 @@ layout: layouts/base.njk
 <div data-section>
 
 <div data-grid data-columns="3" data-gap="7" data-my="6">
-  <h1 data-mb="1" data-span="2" data-cell data-self="center">{{ title }}</h1>
+  <h1 data-span="2" data-cell data-self="center">{{ title }}</h1>
   <img src="{{cover}}" data-height="3" data-fit="cover">
 </div>
 
@@ -14,7 +14,7 @@ layout: layouts/base.njk
     <time datetime="{{ incident | htmlDateString }}">{{ incident | readableDate }}</time><br /><span data-chip>{{ status }}</span>
     <h5 data-mt="7">Location</h5>
     {{ location }}
-    <div data-mt="7"><a href="https://github.com/namahaz/hyperwars-org/issues" taget="_blank">Contribute on GitHub</a></div>
+    <div data-hideprint data-mt="7"><a href="https://github.com/namahaz/hyperwars-org/issues" taget="_blank">Contribute on GitHub</a></div>
   </div>
   <div data-cell data-span='3' class="case-order-3">
     <h5>Assessment</h5>
@@ -31,7 +31,7 @@ layout: layouts/base.njk
 		{%- set tagUrl %}/tags/{{ warfare | slugify }}/{% endset %}
 		<span>{{ warfare }}{%- if not loop.last %}, {% endif %}</span>
 		{%- endfor %}
-		<h5 data-mt="7">Sources</h3>
+		<h5 data-mt="7" data-hideprint>Sources</h3>
 		{% for source in sources %}
 		{%- set tagUrl %}/tags/{{ source | slugify }}/{% endset %}
 		<span><a href="{{ source }}" target="_blank">Link</a>{%- if not loop.last %}, {% endif %}</span>
@@ -49,5 +49,7 @@ layout: layouts/base.njk
 </ul>
 {%- endif %}
 {%- endif %}
+
+
 
 </div>

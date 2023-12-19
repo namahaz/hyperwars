@@ -14,6 +14,7 @@
   --h6: var(--fonts-2);
   --body-font-size: var(--fonts-5);
   --p-margin-bottom: var(--space-8);
+  --headings-margin-bottom: var(--space-4);
 }
 
 .bg-secondary {
@@ -37,10 +38,6 @@ h1 {
 h2 {
 	font-weight: 420;
 	font-stretch: 104%;
-}
-
-[data-h2] {
-	font-weight: 480;
 }
 
 h3 {
@@ -69,16 +66,6 @@ center {
 	text-align: center;
 }
 
-.intro {
-	height: 40vh;
-	background-image: url(https://cdn.theatlantic.com/thumbor/Pftzz4C3UNk_jwWF5U_RBCfXYaY=/1500x1002/media/img/photo/2023/10/photos-destruction-gaza-1/a03_1740591009/original.jpg) ;
-	background-size: cover;
-}
-
-.is-align-end {
-	align-self: end;
-}
-
 @media screen and (max-width: 48rem) {
 	h1 {
 		font-size: 2.5rem;
@@ -90,10 +77,6 @@ center {
 
 	h3 {
 		font-size: 1.5rem;
-	}
-
-	.is-full-screen {
-		min-height: auto;
 	}
 
   [data-section] {
@@ -108,34 +91,46 @@ center {
     order: 3;
   }
 
-
 }
 
 @page {
-	size: letter;
-	margin: 0.125in;
+	size: 5.5in 8.5in;
+	margin: 0.25in;
 }
 
 @media print {
-
-	nav {
-		display: none;
-	}
+  :root {
+    --headings-margin-bottom: var(--space-3);
+    --body-font-size: var(--fonts-4);
+  }
 
 	h1 {
-		font-size: 8.6rem;
+		font-size: 2.5rem;
 	}
 
 	h2 {
-		font-size: 4.4rem;
+		font-size: 2rem;
 	}
 
 	h3 {
-		font-size: 2.8rem;
+		font-size: 1.75rem;
 	}
 
 	article {
 		height: 100vh;
 	}
+
+  [data-grid] { --columns: repeat(1, 1fr) !important; --flow: row !important; }
+  [data-cell] {--span: 1 !important; }
+
+  [data-hideprint] { display: none !important; }
+
+  .case-order-2 {
+    order: 2;
+  }
+
+  .case-order-3 {
+    order: 3;
+  }
 
 }
