@@ -9,6 +9,7 @@ status:
 orgs:
 - Israel Defence Forces
 - Elbit Systems
+- Xtend
 ai:
 - In Loop
 - On Loop
