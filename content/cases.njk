@@ -1,15 +1,17 @@
 ---
 layout: layouts/home.njk
+cover: /cases.jpg
+caption: A child looks over the wreckage. Mohammed Abed/AFP/Getty Images
 numberOfLatestPostsToShow: 3
 ---
 eleventyNavigation:
   key: Cases
-  order: 1
+  order: 2
 <div class="container">
 
 {% set postsCount = collections.cases | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Cases{% if latestPostsCount != 1 %}s{% endif %}</h1>
+<h1>Latest {{ latestPostsCount }} Cases{% if latestPostsCount != 1 %}{% endif %}</h1>
 
 {% set postslist = collections.cases | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}

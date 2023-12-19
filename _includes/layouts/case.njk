@@ -1,28 +1,42 @@
 ---
 layout: layouts/base.njk
 ---
-<div class="container">
+<div data-section>
 
-<h1 class="is-marginless">{{ title }}</h1>
-<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
-<div class="post-metadata row">
-	<div class="col">
-		<h4>Organizations</h3>
+<div data-grid data-columns="3" data-gap="7" data-my="6">
+  <h1 data-mb="1" data-span="2" data-cell data-self="center">{{ title }}</h1>
+  <img src="{{cover}}" data-height="3" data-fit="cover">
+</div>
+
+<div data-grid data-columns="6" data-gap="7" data-my="6">
+  <div>
+    <h5 >Incident</h5>
+    <time datetime="{{ incident | htmlDateString }}">{{ incident | readableDate }}</time><br /><span data-chip>{{ status }}</span>
+    <h5 data-mt="7">Location</h5>
+    {{ location }}
+  </div>
+  <div data-cell data-span='3'>
+    <h4 data-width="100">Assessment</h4>
+    {{ content | safe }}
+  </div>
+	<div data-cell data-span='2'>
+		<h5>Suspected Involvement</h3>
 		{% for org in orgs %}
 		{%- set tagUrl %}/tags/{{ org | slugify }}/{% endset %}
 		<span>{{ org }}{%- if not loop.last %}, {% endif %}</span>
 		{%- endfor %}
-	</div>
-	<div class="col">
-		<h4>Hyperwar</h3>
+		<h5 data-mt="7">Hyperwar</h3>
 		{% for warfare in warfares %}
-		{%- set tagUrl %}/tags/{{ org | slugify }}/{% endset %}
+		{%- set tagUrl %}/tags/{{ warfare | slugify }}/{% endset %}
 		<span>{{ warfare }}{%- if not loop.last %}, {% endif %}</span>
+		{%- endfor %}
+		<h5 data-mt="7">Sources</h3>
+		{% for source in sources %}
+		{%- set tagUrl %}/tags/{{ source | slugify }}/{% endset %}
+		<span><a href="{{ source }}" target="_blank">Link</a>{%- if not loop.last %}, {% endif %}</span>
 		{%- endfor %}
 	</div>
 </div>
-
-{{ content | safe }}
 
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}

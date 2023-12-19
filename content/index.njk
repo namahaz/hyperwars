@@ -1,0 +1,42 @@
+---
+layout: layouts/home.njk
+cover: /home.jpg
+caption: A man carries a propane gas cylinder while walking through debris in the Jabalia camp in Gaza City on Oct. 11. Mahmud Hams/AFP/Getty Images
+numberOfLatestPostsToShow: 6
+---
+
+<h1 data-mt="7"> Hyperwars are conflicts that employ artificial intelligence (AI) in military or state operations without meaningful human control (MHC) leading to: </h1>
+
+<div data-grid data-columns="3" data-gap="3">
+
+<div>
+<h3>Explosive weapons in populated areas</h3>
+<p>The use of explosive weapons in civilian areas is a leading cause of casualities, especially where targeted by AI.</p>
+</div>
+
+<div>
+<h3>Civilian and environmental atrocities</h3>
+<p>Civilians and their environments are subject to a wide array of attacks against their dignity, livelihood and infrastructure.</p>
+</div>
+
+<div>
+<h3>Mass disinformation and surveillance</h3>
+<p>Information wars target dissent and aim to shift public opinion, often through dehumanizing rhetoric, censorship and fabrications.</p>
+</div>
+
+</div>
+
+{% set postsCount = collections.cases | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+
+<h1>Latest {{ latestPostsCount }} Case{% if latestPostsCount != 1 %}s{% endif %}</h1>
+
+{% set postslist = collections.cases | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+
+{% include "postslist.njk" %}
+
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p><a href="/cases/">See {{ morePosts }} more cases{% if morePosts != 1 %}s{% endif %}.</a></p>
+{% endif %}

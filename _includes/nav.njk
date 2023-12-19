@@ -4,9 +4,9 @@
       <a href="/" data-h2>Stop Hyperwars</a>
       {# <a href="javascript:document.body.classList.toggle('dark-mode')">🌚</a> #}
     </div>
-    <div data-ml="4" data-tab data-justify="end" data-grow="2">
+    <div data-ml="4" data-flex data-justify="end" data-grow="2">
       {%- for entry in collections.all | eleventyNavigation %}
-        <a data-mr="4" href="{{ entry.url }}" {% if entry.url == page.url %} aria-current="page" {% endif %}>{{ entry.title }}</a>
+        <a data-mr="4" href="{{ entry.url }}" {% if entry.url == page.url %} aria-current="page" {% endif %}><b>{{ entry.title }}</b></a>
       {%- endfor %}
     </div>
   </nav>

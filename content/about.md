@@ -1,3 +1,11 @@
+---
+layout: layouts/md.njk
+numberOfLatestPostsToShow: 3
+eleventyNavigation:
+  key: About
+  order: 1
+---
+
 <div data-grid data-columns="7" data-gap="3">
 
 <div data-cell data-self="center" data-span='3' data-px=7 data-py=4>
@@ -9,7 +17,7 @@
 </div>
 <div data-cell data-span='4'>
 
-![AI Targeting](target.jpg){data-height=5 data-width=100 data-fit=cover data-position=top}
+![AI Targeting](/target.jpg){data-height=5 data-width=100 data-fit=cover data-position=top}
 </div>
 
 </div>
